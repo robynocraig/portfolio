@@ -9,11 +9,11 @@
 
 .header-style-2 .navbar-nav > li > a.current,
 .header-pagepiling .pl-navbar li.active a,
-a:hover, 
+a:hover,
 a:active,
 .list-style-4 li:before,
 .color-theme {
-	color: #fe5622;	
+	color: #fe5622;
 }
 
 .header-style-5 .navbar-nav > li > a:after,
@@ -28,14 +28,15 @@ a:active,
 .portfolio-box-01 .filter a,
 .list-style-2 li:before,
 .list-style-3 li:before,
-.bg-theme {
+.bg-theme,
+.skillbar-bar {
 	background: #fe5622;
 }
 
 .heading-style-2:after,
 .heading-style-1:after,
 .list-style-4.list-style-color li {
-	border-color: #fe5622;	
+	border-color: #fe5622;
 }
 
 .btn.btn-theme {
