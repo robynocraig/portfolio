@@ -51,7 +51,7 @@
                         <li><a class="current" href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <!-- <li><a href="#contact">Contact</a></li> -->
                     </ul>
                     <!-- Menu End -->
                 </div>
@@ -99,8 +99,8 @@
                     </li>
                 </ul>
                 <div class="p-10px text-center">
-                    <a href="#" class="btn btn-theme btn-m btn-block">
-                <i class="fa fa-download icon-xs m-5px-r" aria-hidden="true"></i>Download CV</a>
+                    <a href="https://docs.google.com/document/d/1yRmgexYLuMzNvLwZzwVVXVHczkf2UaRrxekDvyRnRTs/edit" class="btn btn-theme btn-m btn-block" target="_blank">
+                <i class="fa fa-download icon-xs m-5px-r" aria-hidden="true"></i>Resume</a>
                 </div>
             </aside>
             <div class="wrapper">
@@ -148,6 +148,12 @@
 
                             <div class="skillbar" data-percent="50">
                                 <span class="skillbar-title">JavaScript/jQuery</span>
+                                <p class="skillbar-bar" style="width: 50%; overflow: hidden;"></p>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                            <div class="skillbar" data-percent="50">
+                                <span class="skillbar-title">Bootstrap</span>
                                 <p class="skillbar-bar" style="width: 50%; overflow: hidden;"></p>
                             </div>
                             <!-- End Skill Bar -->
@@ -211,81 +217,84 @@
                 </section>
                 <!-- ========== Service End ========== -->
 
-                <!-- ========== Portfoli Start ========== -->
+                <!-- ========== Portfolio Start ========== -->
                 <section id="portfolio" class="bg-white p-20px m-20px-t">
                     <div class="heading-style-3 m-30px-b">
                         <span class="bg-theme"></span>
                         <h4 class="font-alt text-uppercase color-extra-dark-gray">Portfolio</h4>
                     </div>
                     <div class="portfolio-box portfolio-box-01">
-                        <div class="filter m-30px-b  wow fadeInUp">
-                            <a href="javascript:void(0)" class="control" data-filter="all">All</a>
-                            <a href="javascript:void(0)" class="control" data-filter=".illustration">Illustration</a>
-                            <a href="javascript:void(0)" class="control" data-filter=".photoshop">Photoshop</a>
-                            <a href="javascript:void(0)" class="control" data-filter=".website">Website</a>
-                            <a href="javascript:void(0)" class="control" data-filter=".apps">Apps</a>
-                        </div>
-                        <!-- .filter -->
 
                         <div class="portfolio-filter">
                             <div class="row">
                                 <div class="col-12 col-sm-4 col-xs-6 mix illustration">
                                     <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
+                                        <a href="https://robynocraig.github.io/GiphyAllTheTime" target="_blank"><img src="static/img/giphy.jpg" title="Giphy" alt="Giphy" /></a>
                                         <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">illustration</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- .col-sm-4 col-sm-12 -->
-                                <div class="col-12 col-sm-4 col-xs-6 mix photoshop">
-                                    <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
-                                        <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">photoshop</label>
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Giphy API Project</p>
+                                            <a href="https://robynocraig.github.io/GiphyAllTheTime" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/robynocraig/GiphyAllTheTime" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- .col-sm-4 col-sm-12 -->
                                 <div class="col-12 col-sm-4 col-xs-6 mix illustration">
                                     <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
+                                        <a href="https://robynocraig.github.io/firebase-train-scheduler" target="_blank"><img src="static/img/train.png" title="Train" alt="Train" /></a>
                                         <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">illustration</label>
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Train Scheduler using Firebase</p>
+                                            <a href="https://robynocraig.github.io/firebase-train-scheduler" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/robynocraig/firebase-train-scheduler" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- .col-sm-4 col-sm-12 -->
-
-                                <div class="col-12 col-sm-4 col-xs-6 mix photoshop">
+                                <div class="col-12 col-sm-4 col-xs-6 mix illustration">
                                     <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
+                                        <a href="https://zackeilholz.github.io/CineMunchies" target="_blank"><img src="static/img/movie.png" title="Movie" alt="Movie" /></a>
                                         <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">photoshop</label>
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Bootcamp Group Project</p>
+                                            <a href="https://zackeilholz.github.io/CineMunchies" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/ZacKeilholz/CineMunchies" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- .col-sm-4 col-sm-12 -->
-                                <div class="col-12 col-sm-4 col-xs-6 mix website">
+                                <div class="col-12 col-sm-4 col-xs-6 mix illustration">
                                     <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
+                                        <a href="https://robynocraig.github.io/week-4-game" target="_blank"><img src="static/img/blue-gem.png" title="Gem" alt="Gem" /></a>
                                         <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Website Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">Website</label>
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">jQuery Gem Collector Game</p>
+                                            <a href="https://robynocraig.github.io/week-4-game" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/robynocraig/week-4-game" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- .col-sm-4 col-sm-12 -->
-                                <div class="col-12 col-sm-4 col-xs-6 mix apps">
+                                <div class="col-12 col-sm-4 col-xs-6 mix illustration">
                                     <div class="portfolio-col">
-                                        <a href="#"><img src="static/img/550x500.jpg" title="" alt="" /></a>
+                                        <a href="https://robynocraig.github.io/Trivia-Game" target="_blank"><img src="static/img/cubbies-bear-logo.gif" title="Cubs" alt="Cubs" /></a>
                                         <div class="hover text-center">
-                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Apps Work</p>
-                                            <label class="font-s text-uppercase color-medium-gray">App</label>
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">jQuery Trivia Game</p>
+                                            <a href="https://robynocraig.github.io/Trivia-Game" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/robynocraig/Trivia-Game" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col-sm-4 col-sm-12 -->
+                                <div class="col-12 col-sm-4 col-xs-6 mix illustration">
+                                    <div class="portfolio-col">
+                                        <a href="https://robynocraig.github.io/Psychic-Game" target="_blank"><img src="static/img/psychic.png" title="Psychic" alt="Psychic" /></a>
+                                        <div class="hover text-center">
+                                            <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">JavaScript Psychic Game</p>
+                                            <a href="https://robynocraig.github.io/Psychic-Game" target="_blank"<label class="font-s text-uppercase color-medium-gray">Live URL</label>
+                                              <br>
+                                            <a href="https://github.com/robynocraig/Psychic-Game" target="_blank"<label class="font-s text-uppercase color-medium-gray">GitHub Code</label>
                                         </div>
                                     </div>
                                 </div>
@@ -299,213 +308,16 @@
                     <!-- .portfolio-box -->
                 </section>
                 <!-- section -->
-                <!-- ========== Portfoli End ========== -->
+                <!-- ========== Portfolio End ========== -->
 
-                <!-- ========== What Pepole Say Start ========== -->
-                <section class="bg-white p-20px m-20px-t">
-
-                    <div class="heading-style-3 m-30px-b">
-                        <span class="bg-theme"></span>
-                        <h4 class="font-alt text-uppercase color-extra-dark-gray">CLIENTS WORDS</h4>
-                    </div>
-
-                    <div id="testimonials-slider" class="owl-carousel">
-                        <div class="border-all p-15px bg-white text-center box-shadow-light">
-                            <div class="w-80px h-80px overflow-hidden display-inline-block m-15px-b border-radius-50">
-                                <img src="static/img/100x100.jpg" title="Testimonial" alt="Testimonial" />
-                            </div>
-                            <p class="w-90 sm-w-100 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-                            <p class="font-alt text-uppercase color-extra-dark-gray m-0px m-10px-t">Maria Martin</p>
-                            <p class="font-alt text-uppercase color-medium-gray font-xs">UX Designer</p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="border-all p-15px bg-white text-center box-shadow-light">
-                            <div class="w-80px h-80px overflow-hidden display-inline-block m-15px-b border-radius-50">
-                                <img src="static/img/100x100.jpg" title="Testimonial" alt="Testimonial" />
-                            </div>
-                            <p class="w-90 sm-w-100 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-                            <p class="font-alt text-uppercase color-extra-dark-gray m-0px m-10px-t">Maria Martin</p>
-                            <p class="font-alt text-uppercase color-medium-gray font-xs">UX Designer</p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="border-all p-15px bg-white text-center box-shadow-light">
-                            <div class="w-80px h-80px overflow-hidden display-inline-block m-15px-b border-radius-50">
-                                <img src="static/img/100x100.jpg" title="Testimonial" alt="Testimonial" />
-                            </div>
-                            <p class="w-90 sm-w-100 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-                            <p class="font-alt text-uppercase color-extra-dark-gray m-0px m-10px-t">Maria Martin</p>
-                            <p class="font-alt text-uppercase color-medium-gray font-xs">UX Designer</p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="border-all p-15px bg-white text-center box-shadow-light">
-                            <div class="w-80px h-80px overflow-hidden display-inline-block m-15px-b border-radius-50">
-                                <img src="static/img/100x100.jpg" title="Testimonial" alt="Testimonial" />
-                            </div>
-                            <p class="w-90 sm-w-100 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-                            <p class="font-alt text-uppercase color-extra-dark-gray m-0px m-10px-t">Maria Martin</p>
-                            <p class="font-alt text-uppercase color-medium-gray font-xs">UX Designer</p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="border-all p-15px bg-white text-center box-shadow-light">
-                            <div class="w-80px h-80px overflow-hidden display-inline-block m-15px-b border-radius-50">
-                                <img src="static/img/100x100.jpg" title="Testimonial" alt="Testimonial" />
-                            </div>
-                            <p class="w-90 sm-w-100 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-                            <p class="font-alt text-uppercase color-extra-dark-gray m-0px m-10px-t">Maria Martin</p>
-                            <p class="font-alt text-uppercase color-medium-gray font-xs">UX Designer</p>
-                        </div>
-                        <!-- col -->
-                    </div>
-                    <!-- row -->
-
-                </section>
-                <!--  Section -->
-                <!-- ========== What Pepole Say End ========== -->
-
-                <!-- ========== Our Blog Start ========== -->
-                <section id="blog" class="bg-white p-20px m-20px-t">
-                    <div class="heading-style-3 m-30px-b">
-                        <span class="bg-theme"></span>
-                        <h4 class="font-alt text-uppercase color-extra-dark-gray">Blogs</h4>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-4 sm-m-30px-b">
-                            <!-- Blog Item -->
-                            <div class="blog-item blog-item-hover bg-white">
-                                <div class="blog-item-img">
-                                    <a href="#"><img src="static/img/1200x800.jpg" title="Maria" alt="Maria" /></a>
-                                </div>
-                                <div class="blog-text p-15px border-all">
-                                    <a class="blog-title font-alt font-m color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                    <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                        <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                    </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                                </div>
-                            </div>
-                            <!-- Blog Item End-->
-                        </div>
-                        <!-- col -->
-
-                        <div class="col-12 col-md-4 sm-m-30px-b">
-                            <!-- Blog Item -->
-                            <div class="blog-item blog-item-hover bg-white">
-                                <div class="blog-item-img">
-                                    <a href="#"><img src="static/img/1200x800.jpg" title="Maria" alt="Maria" /></a>
-                                </div>
-                                <div class="blog-text p-15px border-all">
-                                    <a class="blog-title font-alt font-m color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                    <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                        <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                    </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                                </div>
-                            </div>
-                            <!-- Blog Item End-->
-                        </div>
-                        <!-- col -->
-
-                        <div class="col-12 col-md-4">
-                            <!-- Blog Item -->
-                            <div class="blog-item blog-item-hover bg-white">
-                                <div class="blog-item-img">
-                                  <a href="#"><img src="static/img/1200x800.jpg" title="Maria" alt="Maria" /></a>
-                                </div>
-                                <div class="blog-text p-15px border-all">
-                                    <a class="blog-title font-alt font-m color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                    <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                        <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                    </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                                </div>
-                            </div>
-                            <!-- Blog Item End-->
-                        </div>
-                        <!-- col -->
-
-                    </div>
-                    <!-- row -->
-
-                </section>
-                <!-- Section -->
-                <!-- ========== Our Blog End ========== -->
-
-                <!-- ========== Contact Us start ========== -->
-                <section id="contact" class="bg-white p-20px m-20px-t m-20px-b">
-                    <div class="heading-style-3 m-30px-b">
-                        <span class="bg-theme"></span>
-                        <h4 class="font-alt text-uppercase color-extra-dark-gray">Contact Us</h4>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="feature-box-01 sm-m-30px-b">
-                                <i class="fa fa-map-o color-theme icon-l"></i>
-                                <div class="feature-content">
-                                    <p class="color-extra-dark-gray text-uppercase">301 The Greenhouse,<br/>London, E2 8DY.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- col -->
-
-                        <div class="col-12 col-md-6">
-                            <div class="feature-box-01">
-                                <i class="fa fa-envelope-open-o color-theme icon-l"></i>
-                                <div class="feature-content">
-                                    <p class="color-extra-dark-gray text-uppercase">General Enquiries<br/>info@domain.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- col -->
-                    </div>
-                    <!-- row -->
-                    <div class="row m-40px-t">
-                        <div class="col-12 col-md-12">
-                            <form>
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <input name="name" placeholder="Name *" class="input-medium" type="text" />
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <input name="phone" placeholder="Phone" class="input-medium" type="text" />
-                                    </div>
-                                    <div class="col-12 col-md-12">
-                                        <input name="email" placeholder="Email*" class="input-medium" type="email" />
-                                    </div>
-                                    <div class="col-12 col-md-12">
-                                        <textarea name="comment" placeholder="Describe your project" rows="3" class="input-medium"></textarea>
-                                    </div>
-                                    <div class="col-12 col-md-12">
-                                        <button type="submit" class="btn btn-theme btn-l">send message</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- form -->
-                        </div>
-                        <!-- col -->
-                    </div>
-                    <!-- row -->
-                </section>
-                <!-- section -->
-                <!-- ========== Contact us End ========== -->
                 <footer class="bg-black m-30px-b">
                   <div class="container">
                     <div class="row">
                       <div class="col-12 col-md-6 text-md-left text-center">
-                        <p class="m-0 p-15px-b p-15px-t sm-p-5px-b">Maria</p>
+                        <p class="m-0 p-15px-b p-15px-t sm-p-5px-b">Robyn Craig</p>
                       </div><!-- col -->
                       <div class="col-12 col-md-6 text-center text-md-right">
-                        <p class="m-0 p-15px-b p-15px-t sm-p-5px-t">© 2018 Powered by Maria</p>
+                        <p class="m-0 p-15px-b p-15px-t sm-p-5px-t">© 2018</p>
                       </div><!-- col -->
                     </div> <!-- row -->
                   </div> <!-- Container -->
