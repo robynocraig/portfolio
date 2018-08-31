@@ -271,7 +271,7 @@ Table of contents
 .pp-toggle .icon-bar:last-child {
   top: auto;
   bottom: 15px;
-  
+
 }
 
 .pp-menu-open .pp-toggle .icon-bar {
@@ -319,7 +319,7 @@ Table of contents
     right: 0;
   }
   .pp-menu-open .header-pagepiling .pl-navbar {
-   left: 0; 
+   left: 0;
   }
 }
 
@@ -744,7 +744,7 @@ Table of contents
   position: absolute;
   top: 50%;
   left: 15px;
-  right: 15px; 
+  right: 15px;
   -webkit-transform: translatey(-50%);
      -moz-transform: translatey(-50%);
        -o-transform: translatey(-50%);
@@ -829,7 +829,7 @@ Table of contents
 }
 
 .home-banner-04 .banner-center-text {
-  
+
 }
 
 /*===================================
@@ -913,7 +913,6 @@ Table of contents
   overflow: hidden;
 }
 .portfolio-col .hover {
-  position: absolute;
   width: 100%;
   bottom: -120px;
   left: 0;
@@ -996,13 +995,13 @@ Table of contents
 .pp-scrollable {
   /*overflow-y: auto;*/
 }
-#pp-nav span, 
+#pp-nav span,
 .pp-slidesNav span {
   width: 13px;
   height: 13px;
   border: 1px solid #fff !important;
 }
-#pp-nav li .active span, 
+#pp-nav li .active span,
 .pp-slidesNav .active span {
   background: #fff;
 }
