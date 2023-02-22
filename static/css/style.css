@@ -956,6 +956,10 @@ Table of contents
   background: #000;
 }
 
+.portfolio-box label {
+  text-decoration: underline;
+}
+
 /*===================================
   16. Blog Item
 ====================================== */
@@ -1262,8 +1266,9 @@ transform: translateY(0);
 .skillbar-title {
   top: -22px;
   position: absolute;
-  font-size: 12px;
   text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
 }
 .skillbar-white {
   background: rgba(255, 255, 255, .25)
